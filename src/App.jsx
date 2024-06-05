@@ -7,6 +7,8 @@ import Requests from "./pages/Requests.jsx";
 import PassengerView from "./pages/PassengerView.jsx";
 import Support from "./pages/Support.jsx";
 import AdminPanel from "./pages/AdminPanel.jsx";
+import Profile from "./pages/Profile.jsx";
+import Dashboard from "./pages/Dashboard.jsx";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/passenger-view" element={<PassengerView />} />
         <Route path="/support" element={<Support />} />
         <Route path="/admin" element={<AdminPanel />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </Router>
   );

@@ -25,6 +25,12 @@ const Navigation = () => {
       <Button as={Link} to="/admin">
         Admin Panel
       </Button>
+      <Button as={Link} to="/profile">
+        Profile
+      </Button>
+      <Button as={Link} to="/dashboard">
+        Dashboard
+      </Button>
     </HStack>
   );
 };
